@@ -2,7 +2,7 @@
   "name": "wavesurfer-custom-height-for-channels-plugin",
   "version": "1.0.0",
   "description": "WaveSufer.js Custom Height For Channels Plugin",
-  "main": "index.js",
+  "main": "dist/WaveSurferCustomHeightForChannels.js",
   "repository": "git@github.com:whthT/wavesurfer-custom-height-for-channels-plugin.git",
   "author": "Musa Kurt <hackedtim61@gmail.com>",
   "license": "MIT",
