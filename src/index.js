@@ -4,7 +4,9 @@ import CustomHeightForChannels from "./lib/WaveSurferCustomHeightForChannels";
 window.addEventListener("DOMContentLoaded", () => {
   const wavesurfer = WaveSurfer.create({
     container: document.getElementById("wavesurfer"),
-    backend: "MediaElement",
+    // backend: "MediaElement",
+    // backend: "WebAudio",
+    backend: "MediaElementWebAudio",
     splitChannels: true,
     plugins: [
       CustomHeightForChannels.create({
